@@ -1,0 +1,28 @@
+{
+  "shape": [
+    10000,
+    16
+  ],
+  "target": "Health_Issues",
+  "numeric_columns": [
+    "ID",
+    "Age",
+    "Coffee_Intake",
+    "Caffeine_mg",
+    "Sleep_Hours",
+    "BMI",
+    "Heart_Rate",
+    "Physical_Activity_Hours",
+    "Smoking",
+    "Alcohol_Consumption"
+  ],
+  "categorical_columns": [
+    "Gender",
+    "Country",
+    "Sleep_Quality",
+    "Stress_Level",
+    "Health_Issues",
+    "Occupation"
+  ],
+  "eda_outputs": "/home/Dhananjana/GitHub/coffee-minining/outputs/figures"
+}

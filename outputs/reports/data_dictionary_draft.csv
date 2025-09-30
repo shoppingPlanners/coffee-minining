@@ -1,0 +1,17 @@
+column,dtype,non_null_count,unique_count
+ID,int64,10000,10000
+Age,int64,10000,59
+Gender,object,10000,3
+Country,object,10000,20
+Coffee_Intake,float64,10000,78
+Caffeine_mg,float64,10000,4277
+Sleep_Hours,float64,10000,71
+Sleep_Quality,object,10000,4
+BMI,float64,10000,220
+Heart_Rate,int64,10000,58
+Stress_Level,object,10000,3
+Physical_Activity_Hours,float64,10000,151
+Health_Issues,object,4059,3
+Occupation,object,10000,5
+Smoking,int64,10000,2
+Alcohol_Consumption,int64,10000,2

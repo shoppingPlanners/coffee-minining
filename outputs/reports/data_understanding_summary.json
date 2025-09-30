@@ -1,0 +1,35 @@
+{
+  "shape": [
+    10000,
+    16
+  ],
+  "num_columns": 16,
+  "num_rows": 10000,
+  "numeric_columns": [
+    "ID",
+    "Age",
+    "Coffee_Intake",
+    "Caffeine_mg",
+    "Sleep_Hours",
+    "BMI",
+    "Heart_Rate",
+    "Physical_Activity_Hours",
+    "Smoking",
+    "Alcohol_Consumption"
+  ],
+  "categorical_columns": [
+    "Alcohol_Consumption",
+    "Country",
+    "Gender",
+    "Health_Issues",
+    "Occupation",
+    "Sleep_Quality",
+    "Smoking",
+    "Stress_Level"
+  ],
+  "detected_target": "Health_Issues",
+  "duplicate_count": 0,
+  "missing_columns": [
+    "Health_Issues"
+  ]
+}

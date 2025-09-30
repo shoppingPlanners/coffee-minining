@@ -1,0 +1,9 @@
+column,unique_count,sample_values
+Country,20,"Germany, Brazil, Spain, Mexico, France, Canada, UK, Switzerland, Netherlands, Italy, China, Japan"
+Occupation,5,"Other, Service, Office, Student, Healthcare"
+Sleep_Quality,4,"Good, Fair, Excellent, Poor"
+Gender,3,"Male, Female, Other"
+Stress_Level,3,"Low, Medium, High"
+Health_Issues,3,"Mild, Moderate, Severe"
+Alcohol_Consumption,2,"0, 1"
+Smoking,2,"0, 1"

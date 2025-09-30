@@ -10,7 +10,17 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.metrics import accuracy_score, f1_score, classification_report
 
 
-DATA_PATH = os.path.join("data", "synthetic_coffee_health_10000.csv")
+DATA_PATH_RAW = os.path.join("data", "raw", "synthetic_coffee_health_10000.csv")
+DATA_PATH_PROCESSED = os.path.join("data", "processed", "coffee_health_cleaned.csv")
+
+def resolve_data_path() -> str:
+    if os.path.exists(DATA_PATH_RAW):
+        return DATA_PATH_RAW
+    if os.path.exists(DATA_PATH_PROCESSED):
+        return DATA_PATH_PROCESSED
+    # Fallback to legacy location if present
+    legacy = os.path.join("data", "synthetic_coffee_health_10000.csv")
+    return legacy
 
 
 # -------------------------------
@@ -268,9 +278,9 @@ st.caption(
 with st.sidebar:
     st.header("Configuration")
     st.write("Data source:")
-    st.code(DATA_PATH)
+    st.code(resolve_data_path())
 
-df = load_data(DATA_PATH)
+df = load_data(resolve_data_path())
 model_artifacts = train_model(df)
 
 tabs = st.tabs(["Predict", "EDA", "Model"])

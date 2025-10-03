@@ -9999,3 +9999,13 @@ ID,Age,Gender,Country,Coffee_Intake,Caffeine_mg,Sleep_Hours,Sleep_Quality,BMI,He
 9998,26,Male,China,1.6,153.4,7.1,Good,25.1,66,Low,13.7,None,Student,1,1
 9999,40,Female,Finland,3.4,327.1,7.0,Good,19.3,80,Low,0.1,None,Student,0,0
 10000,42,Female,Brazil,2.9,277.5,6.4,Good,28.1,72,Low,9.8,None,Student,1,0
+10001,45,Male,USA,3.5,328.1,7.5,Good,24.9,78,Low,14.5,Moderate,Office,0,0
+10001,45,Male,USA,3.5,328.1,7.5,Good,24.9,78,Low,14.5,Moderate,Office,0,0
+10002,35,,Canada,2.5,235.0,6.0,Good,22.0,70,,10.0,Mild,Service,0,1
+10003,28,Female,,4.0,,,Fair,25.5,75,Medium,8.0,,Office,1,0
+10004,150,Male,UK,15.0,1500.0,2.0,Poor,55.0,180,High,0.0,Severe,Other,1,1
+10005,5,Female,Brazil,-5.0,-100.0,20.0,Excellent,10.0,30,Low,25.0,None,Student,0,0
+10006,,,,,,,,,,,,,,,
+10007,42,Male,Germany,3.2,300.0,7.0,Good,23.5,72,Low,12.0,Moderate,Office,0,0
+10007,42,Male,Germany,3.2,300.0,7.0,Good,23.5,72,Low,12.0,Moderate,Office,0,0
+10008,38,Female,Japan,2.8,265.0,5.5,Fair,21.8,68,Medium,9.5,Mild,Healthcare,0,1

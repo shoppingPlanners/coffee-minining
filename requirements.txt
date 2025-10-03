@@ -5,3 +5,5 @@ joblib
 streamlit
 seaborn
 matplotlib
+imbalanced-learn
+xgboost

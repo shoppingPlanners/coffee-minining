@@ -1,6 +1,6 @@
 {
   "shape": [
-    10000,
+    10008,
     16
   ],
   "target": "Health_Issues",
@@ -24,5 +24,5 @@
     "Health_Issues",
     "Occupation"
   ],
-  "eda_outputs": "/home/Dhananjana/GitHub/coffee-minining/outputs/figures"
+  "eda_outputs": "/Users/yasiruvithana/coffee-minining/outputs/figures"
 }

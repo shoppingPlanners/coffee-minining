@@ -1,10 +1,10 @@
 {
   "shape": [
-    10000,
+    10010,
     16
   ],
   "num_columns": 16,
-  "num_rows": 10000,
+  "num_rows": 10010,
   "numeric_columns": [
     "ID",
     "Age",
@@ -28,8 +28,22 @@
     "Stress_Level"
   ],
   "detected_target": "Health_Issues",
-  "duplicate_count": 0,
+  "duplicate_count": 2,
   "missing_columns": [
-    "Health_Issues"
+    "Health_Issues",
+    "Gender",
+    "Country",
+    "Caffeine_mg",
+    "Sleep_Hours",
+    "Stress_Level",
+    "Age",
+    "Coffee_Intake",
+    "Sleep_Quality",
+    "BMI",
+    "Heart_Rate",
+    "Physical_Activity_Hours",
+    "Occupation",
+    "Smoking",
+    "Alcohol_Consumption"
   ]
 }
